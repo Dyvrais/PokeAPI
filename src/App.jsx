@@ -34,9 +34,10 @@ function App() {
   return (
     <main className="bg-[url(https://dl.airtable.com/.exploreCoverImages/5bc96e992eb75b3e452cb011840ae7a4/6cf7e370)]">
       <img
-        className="m-auto p-10"
-        src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png"
+        className="m-auto p-10 w-1/3"
+        src="https://i.imgur.com/AYutZOF.png"
       />
+      /
       <div className="pokedex grid gap-5 grid-cols-3 m-auto max-w-screen-lg">
         <PokeCard PokeData={pokemonRes} />
       </div>
